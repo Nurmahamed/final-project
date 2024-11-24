@@ -1,5 +1,5 @@
 import React from "react";
-import Bookimg from "../images/image.png";
+import Bookimg from "../../images/image.png";
 import "./Images.css";
 
 const Images = () => {
@@ -7,7 +7,7 @@ const Images = () => {
     <div className="pdd-image">
       <img
         src={Bookimg}
-        alt=""
+        alt="LawsBookimg"
       />
     </div>
   );

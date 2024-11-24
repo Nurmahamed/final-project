@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.headerTop {
+    background-image: url(../../images/HeaderTopBg.jpg);
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navList {
+    display: flex;
+    gap: 30px;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.headerDown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+.headerDescr {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.downerP {
+    margin-bottom: 10px;
+}
+
+.buttonsClient {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+.btnWsApp {
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    align-items: center;
+    background-color: #7DA658;
+    color: #fff;
+}
+
+.contactNumber {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px 0 20px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    align-items: center;
+}
+
+.prgph {
+    display: flex;
+    gap: 3px;
+}
+
+.workSchedule {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 430px;
+}

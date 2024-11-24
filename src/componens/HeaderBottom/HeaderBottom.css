@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerBottom {
+    margin-top: 100px;
+}
+
+.sphereElements {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 70px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sphereFirst,
+.sphereSecond,
+.sphereThird,
+.sphereFourth {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px 2px #00000040;
+}
+
+.descrSpheres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.descrSphers {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.lineNovator {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    margin-top: 160px;
+    margin-bottom: 140px;
+    border: 1px solid #000000;
+    width: 800px;
+    
+}
+
+.headerBottomRuslan {
+    display: flex;
+    margin:0 0 100px 0 ;
+}
+
+.hisDescribe {
+    margin: 60px;
+    margin-left: 100px;
+}
+
+.ruslanNm {
+    font-size: 41px;
+    margin-bottom: 30px;
+}
+
+.Descr1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Descr2 {
+    line-height: 30px;
+   color: #00000080;
+}
